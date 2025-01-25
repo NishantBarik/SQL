@@ -22,7 +22,7 @@ A comprehensive MySQL database design for managing railway operations. This proj
 ## 🚀 Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/NishantBarik/SQL/railway_system.sql
+   [git clone https://github.com/NishantBarik/SQL/railway_system.sql](https://github.com/NishantBarik/SQL/blob/main/railway_system.sql)
 
 -> Import the SQL file into MySQL.
 
@@ -40,8 +40,10 @@ Contributions are welcome! Fork the repository and submit a pull request.
 
 📧 Contact
 
-**Author**: Nishant Barik
+**Author**: Nishant Barik 
+
 **Email**: bariknishant10@gmail.com
+
 **GitHub**: https://github.com/NishantBarik
 
 ⭐ Don't forget to give this project a star if you find it useful!
