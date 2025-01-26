@@ -37,40 +37,10 @@ The schema includes the following key tables:
 - **Database**: MySQL 5.7+ or MariaDB.
 - **Tools**: MySQL Workbench, DBeaver, or any SQL client.
 
-## Usage
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/NishantBarik/SQL.git
-   cd SQL
-Import the SQL file into your database:
-source online_retail.sql;
-Verify the schema creation using your database client.
-
-**Example Query**
-
-To fetch all orders with their corresponding customer and payment details:
-
-SELECT 
-    o.order_id,
-    c.first_name AS customer_first_name,
-    c.last_name AS customer_last_name,
-    p.total_amount,
-    p.payment_mode,
-    o.is_delivered,
-    o.delivery_date
-FROM 
-    orders o
-JOIN 
-    customers c ON o.ordered_by = c.customer_id
-JOIN 
-    payment p ON o.payment_id = p.payment_id;
-
-**Contribution**
+**Contribution :**
 
 Feel free to contribute! If you have suggestions or encounter issues, open a pull request or file an issue in the repository.
 
 Author: Nishant Barik
-
 
 For questions or feedback, connect with me on GitHub.
